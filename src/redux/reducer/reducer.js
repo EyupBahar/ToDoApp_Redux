@@ -18,7 +18,8 @@ const todoReducer = (state = INITIAL_STATE, action) => {
       };
     case CLEAR_TODO_LİST:
       return INITIAL_STATE;
-    case DELETE_TODO:
+
+    case TOGGLE_TODO:
       return {
         ...state,
         list: state.list.map((todo) =>
@@ -27,7 +28,7 @@ const todoReducer = (state = INITIAL_STATE, action) => {
             : todo
         ),
       };
-    case DELETE_TODO_LİST:
+    case DELETE_TODO:
       return {
         ...state,
         list: state.list.filter((item) => item.id !== action.payload),

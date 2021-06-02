@@ -22,7 +22,7 @@ export const deleteTodo = (payload) => {
     payload,
   };
 };
-export const addTodo = (payload) => {
+export const toggleTodo = (payload) => {
   return {
     type: TOGGLE_TODO,
     payload,
