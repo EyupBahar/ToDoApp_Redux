@@ -1,13 +1,13 @@
 import "./App.css";
-import TodoInput from "./component/TodoInput";
-import Todolist from "./component/Todolist";
+import TodoInput from "./components/TodoInput";
+import TodoList from "./components/TodoList";
 
 function App() {
   return (
     <div className="App">
       <h1>Clarus Todos</h1>
       <TodoInput />
-      <Todolist />
+      <TodoList />
     </div>
   );
 }

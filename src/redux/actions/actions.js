@@ -16,6 +16,7 @@ export const clearTodoList = () => {
     type: CLEAR_TODO_LİST,
   };
 };
+
 export const deleteTodo = (payload) => {
   return {
     type: DELETE_TODO,

@@ -1,6 +1,15 @@
 import React from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { clearTodoList } from "../redux/actions/actions";
+import TodoItem from "./TodoItem";
 
 const Todolist = () => {
+  const { list } = useSelector((state) => state.todoReducer);
+  const dispatch = useDispatch();
+
+  const handleClearList = () => {
+    dispatch(clearTodoList());
+  };
   return (
     <div>
       <ul>
@@ -15,7 +24,7 @@ const Todolist = () => {
           width: "100px",
           marginTop: "25px",
           fontSize: "1rem",
-          backgroundColor: "#AC0D0D",
+          backgroundColor: "#ac0d0d",
           color: "white",
           borderRadius: "10px",
         }}
