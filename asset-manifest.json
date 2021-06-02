@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ToDoApp_Redux/static/css/main.39eaf966.chunk.css",
+    "main.js": "/ToDoApp_Redux/static/js/main.00c79b7d.chunk.js",
+    "main.js.map": "/ToDoApp_Redux/static/js/main.00c79b7d.chunk.js.map",
+    "runtime-main.js": "/ToDoApp_Redux/static/js/runtime-main.379d86bb.js",
+    "runtime-main.js.map": "/ToDoApp_Redux/static/js/runtime-main.379d86bb.js.map",
+    "static/js/2.a02e4275.chunk.js": "/ToDoApp_Redux/static/js/2.a02e4275.chunk.js",
+    "static/js/2.a02e4275.chunk.js.map": "/ToDoApp_Redux/static/js/2.a02e4275.chunk.js.map",
+    "static/js/3.a698c530.chunk.js": "/ToDoApp_Redux/static/js/3.a698c530.chunk.js",
+    "static/js/3.a698c530.chunk.js.map": "/ToDoApp_Redux/static/js/3.a698c530.chunk.js.map",
+    "index.html": "/ToDoApp_Redux/index.html",
+    "static/css/main.39eaf966.chunk.css.map": "/ToDoApp_Redux/static/css/main.39eaf966.chunk.css.map",
+    "static/js/2.a02e4275.chunk.js.LICENSE.txt": "/ToDoApp_Redux/static/js/2.a02e4275.chunk.js.LICENSE.txt",
+    "static/media/delete.daac4de8.png": "/ToDoApp_Redux/static/media/delete.daac4de8.png",
+    "static/media/ok.fb578612.png": "/ToDoApp_Redux/static/media/ok.fb578612.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.379d86bb.js",
+    "static/js/2.a02e4275.chunk.js",
+    "static/css/main.39eaf966.chunk.css",
+    "static/js/main.00c79b7d.chunk.js"
+  ]
+}
