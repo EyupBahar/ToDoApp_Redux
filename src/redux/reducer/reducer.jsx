@@ -3,6 +3,7 @@ import {
   TOGGLE_TODO,
   DELETE_TODO,
   CLEAR_TODO_LİST,
+  FILTER_TODO,
 } from "../types/types";
 
 const INITIAL_STATE = {
@@ -34,10 +35,22 @@ const todoReducer = (state = INITIAL_STATE, action) => {
         ),
       };
 
+    case FILTER_TODO:
+      return {
+        ...state,
+        list: state.list.filter((todo) =>
+          !todo.completed === true ? todo : null
+        ),
+      };
+
     case DELETE_TODO:
       return {
         ...state,
-        list: state.list.filter((item) => item.id !== action.payload),
+        list: state.list.filter((todo) =>
+          todo.id === action.payload
+            ? { ...todo, completed: todo.completed }
+            : todo
+        ),
       };
 
     default:
