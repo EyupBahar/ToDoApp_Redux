@@ -4,7 +4,7 @@ import {
   TOGGLE_TODO,
   CLEAR_TODO_LİST,
   FILTER_TODO,
-} from "../types/types";
+} from "../types/types.jsx";
 
 export const addTodo = (payload) => {
   return {
