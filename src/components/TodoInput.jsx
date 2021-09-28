@@ -24,12 +24,13 @@ const TodoInput = () => {
             value={text}
             onChange={(event) => setText(event.target.value)}
             style={{
-              width: "200px",
+              width: "400px",
               height: "50px",
               fontSize: "1rem",
               paddingLeft: "15px",
               borderRadius: "20px 0 0 20px",
               outline: "none",
+              cursor: "pointer",
             }}
           />
           <button
@@ -40,6 +41,7 @@ const TodoInput = () => {
               backgroundColor: "#d44000",
               fontSize: "1rem",
               color: "white",
+              cursor: "pointer",
               outline: "none",
             }}
             onClick={handleSubmit}
