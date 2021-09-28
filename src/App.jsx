@@ -1,7 +1,6 @@
 import "./App.css";
 import TodoInput from "./components/TodoInput";
 import TodoList from "./components/TodoList";
-import todo3 from "./assets/todo3.jpeg";
 
 function App() {
   return (
