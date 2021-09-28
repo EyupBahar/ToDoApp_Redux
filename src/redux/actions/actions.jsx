@@ -3,6 +3,7 @@ import {
   DELETE_TODO,
   TOGGLE_TODO,
   CLEAR_TODO_LİST,
+  FILTER_TODO,
 } from "../types/types";
 
 export const addTodo = (payload) => {
@@ -27,5 +28,12 @@ export const toggleTodo = (payload) => {
   return {
     type: TOGGLE_TODO,
     payload,
+  };
+};
+
+export const filterTodos = () => {
+  console.log("filter todos here");
+  return {
+    type: FILTER_TODO,
   };
 };
