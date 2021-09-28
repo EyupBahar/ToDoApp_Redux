@@ -38,7 +38,7 @@ const TodoInput = () => {
               height: "50px",
               width: "75px",
               borderRadius: "0 20px 20px 0",
-              backgroundColor: "#d44000",
+              backgroundColor: "#33B744",
               fontSize: "1rem",
               color: "white",
               cursor: "pointer",
