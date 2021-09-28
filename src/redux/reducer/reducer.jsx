@@ -4,7 +4,7 @@ import {
   DELETE_TODO,
   CLEAR_TODO_LİST,
   FILTER_TODO,
-} from "../types/types";
+} from "../types/types.jsx";
 
 const INITIAL_STATE = {
   counter: 0,
@@ -46,11 +46,7 @@ const todoReducer = (state = INITIAL_STATE, action) => {
     case DELETE_TODO:
       return {
         ...state,
-        list: state.list.filter((todo) =>
-          todo.id === action.payload
-            ? { ...todo, completed: todo.completed }
-            : todo
-        ),
+        list: state.list.filter((item) => item.id !== action.payload),
       };
 
     default:
