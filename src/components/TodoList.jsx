@@ -39,16 +39,18 @@ const Todolist = () => {
         onClick={handleFilterCompleted}
         style={{
           height: "50px",
-          width: "100px",
+          width: "120px",
           marginTop: "25px",
           fontSize: "1rem",
           backgroundColor: "#33B744",
           color: "white",
           cursor: "pointer",
           borderRadius: "10px",
+          padding: "5px",
+          margin: "10px",
         }}
       >
-        Completed
+        Uncompleted
       </button>
     </div>
   );
